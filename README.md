@@ -20,7 +20,7 @@ This is not a retainer, an open-ended audit, or a guarantee that a maintainer wi
 
 ## Start Here
 
-[Open a private-feeling public intake issue](../../issues/new?template=sprint-request.yml) with the repository URL, the blocker, and the result you need. Do not include credentials, customer data, private source, or secrets.
+[Open a public intake issue](../../issues/new?template=sprint-request.yml) with the repository URL, the blocker, and the result you need. Do not include credentials, customer data, private source, or secrets.
 
 I will reply with one of three answers:
 

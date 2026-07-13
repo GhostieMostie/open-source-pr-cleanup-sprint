@@ -1,0 +1,49 @@
+name: PR cleanup sprint request
+description: Check whether one stalled PR or CI blocker fits a fixed $75 sprint.
+title: "Sprint request: "
+labels:
+  - intake
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Share public links only. Do not post credentials, secrets, customer data, or private source.
+  - type: input
+    id: repository
+    attributes:
+      label: Repository or pull request
+      description: Link the public repository, issue, pull request, or failing check.
+      placeholder: https://github.com/owner/repo/pull/123
+    validations:
+      required: true
+  - type: textarea
+    id: blocker
+    attributes:
+      label: What is stuck?
+      description: Name the concrete failure, requested change, or review blocker.
+      placeholder: The Windows test job fails after the parser change, while Linux passes.
+    validations:
+      required: true
+  - type: textarea
+    id: outcome
+    attributes:
+      label: What would count as done?
+      description: Give one observable acceptance check.
+      placeholder: The focused test passes on Windows and the PR has a short verification note.
+    validations:
+      required: true
+  - type: input
+    id: deadline
+    attributes:
+      label: Deadline or timing constraint
+      description: Optional. Include a timezone if the date matters.
+      placeholder: No hard deadline, or 2026-07-15 17:00 UTC
+  - type: checkboxes
+    id: terms
+    attributes:
+      label: Fit check
+      options:
+        - label: I understand this is a $75 prepaid, two-hour fixed-scope sprint if accepted.
+          required: true
+        - label: I understand merge, deployment, and third-party bounty payment are not guaranteed.
+          required: true

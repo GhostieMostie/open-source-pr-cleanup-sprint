@@ -1,34 +1,34 @@
-# Open-Source PR Cleanup Sprint
+# Fixed-Scope PR And CI Sprints
 
-A fixed-scope cleanup for one stalled pull request, CI failure, or review blocker.
+One repository, one blocker, and one written definition of done.
 
-## The Sprint
+## Offers
 
-- **Price:** $75 prepaid after a fit check
+### Cleanup Sprint - $75
+
 - **Timebox:** up to two focused hours
-- **Scope:** one repository and one concrete blocker
-- **Delivery:** the patch or diagnosis, focused validation, a short evidence receipt, and the next decision
+- **Good fit:** a stalled PR, focused CI failure, small reproduction, requested change, or review-readiness problem
+- **Delivery:** a safe patch when the cause is bounded, or a diagnosis with evidence and the next decision
 
-Good fits include:
+### Fix Sprint - $150
 
-- a PR that needs requested changes closed out
-- a failing test or CI job with a bounded cause
-- a small reproduction that needs to become reviewer-ready
-- a bounty submission that needs cleaner evidence or claim plumbing
+- **Timebox:** up to four focused hours
+- **Good fit:** one bounded implementation or correction with a clear acceptance check
+- **Delivery:** the patch, focused tests, diff review, and a reviewer-ready handoff
 
-This is not a retainer, an open-ended audit, or a guarantee that a maintainer will merge or pay a third-party bounty.
+These are not retainers, open-ended audits, or guarantees that a maintainer will merge a change or pay a third-party bounty.
 
 ## Start Here
 
-[Open a public intake issue](../../issues/new?template=sprint-request.yml) with the repository URL, the blocker, and the result you need. Do not include credentials, customer data, private source, or secrets.
+[Open a fit request](../../issues/new?template=sprint-request.yml) for a public repository. Share the repository or PR, the blocker, and the observable result you need. Do not include credentials, customer data, private source, security reports, or secrets.
 
-I will reply with one of three answers:
+The response will be one of three things:
 
-- **Fit:** exact scope, acceptance check, and checkout link
-- **Needs one fact:** the single detail required to price it honestly
-- **No fit:** a short reason, with no sales chase afterward
+- **Fit:** exact scope, acceptance check, price, and supported contract or payment route
+- **Needs one fact:** the single missing detail needed to scope it honestly
+- **No fit:** a short reason, without a sales chase afterward
 
-Work starts after written scope acceptance and payment. If the fit check shows the task is larger than two hours, I will narrow it or quote a separate $150 fix sprint before touching the code.
+Work starts after written scope acceptance and an accepted contract or payment event. Tasks that do not fit the selected timebox are narrowed or declined before implementation begins.
 
 ## Delivery Standard
 
@@ -39,4 +39,4 @@ Every completed sprint includes:
 3. Remaining risk or maintainer-owned blockers
 4. The smallest useful next action
 
-No generic progress updates and no invented certainty.
+Public repositories only until a private intake channel is available.

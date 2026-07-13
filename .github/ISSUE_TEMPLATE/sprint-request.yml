@@ -1,5 +1,5 @@
-name: PR cleanup sprint request
-description: Check whether one stalled PR or CI blocker fits a fixed $75 sprint.
+name: Fixed-scope PR or CI sprint request
+description: Check whether one public repository blocker fits a $75 cleanup or $150 fix sprint.
 title: "Sprint request: "
 labels:
   - intake
@@ -7,7 +7,18 @@ body:
   - type: markdown
     attributes:
       value: |
-        Share public links only. Do not post credentials, secrets, customer data, or private source.
+        Share public links only. Do not post credentials, secrets, customer data, private source, or security-sensitive details.
+  - type: dropdown
+    id: sprint
+    attributes:
+      label: Sprint
+      description: Choose the smallest option that can reach the result you need.
+      options:
+        - Cleanup sprint - $75, up to two focused hours
+        - Fix sprint - $150, up to four focused hours
+        - Not sure - scope the smallest honest option
+    validations:
+      required: true
   - type: input
     id: repository
     attributes:
@@ -43,7 +54,7 @@ body:
     attributes:
       label: Fit check
       options:
-        - label: I understand this is a $75 prepaid, two-hour fixed-scope sprint if accepted.
+        - label: I understand work starts only after written scope acceptance and a supported contract or payment event.
           required: true
         - label: I understand merge, deployment, and third-party bounty payment are not guaranteed.
           required: true

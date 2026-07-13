@@ -30,6 +30,10 @@ The response will be one of three things:
 
 Work starts after written scope acceptance and an accepted contract or payment event. Tasks that do not fit the selected timebox are narrowed or declined before implementation begins.
 
+## Sample Handoff
+
+[Read an illustrative cleanup receipt](sample-delivery-receipt.md) showing the scope, finding, validation, remaining risk, and next decision a buyer receives.
+
 ## Delivery Standard
 
 Every completed sprint includes:

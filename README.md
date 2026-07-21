@@ -10,6 +10,8 @@ One repository, one blocker, and one written definition of done.
 - **Good fit:** a stalled PR, focused CI failure, small reproduction, requested change, or review-readiness problem
 - **Delivery:** a safe patch when the cause is bounded, or a diagnosis with evidence and the next decision
 
+[Book the $75 Cleanup Sprint on Upwork](https://www.upwork.com/services/product/development-it-a-focused-fix-or-diagnosis-for-one-stalled-github-pr-or-ci-failure-2079406640704166084)
+
 ### Fix Sprint - $150
 
 - **Timebox:** up to four focused hours
